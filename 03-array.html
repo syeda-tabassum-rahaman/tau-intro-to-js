@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const favouriteCookies = ["chocolate chip", 
+        "oatmeal raisin", 
+        "sugar"];
+        favouriteCookies.push("windmill cookie"); // add to the end
+        const cookie = favouriteCookies.pop(); // remove from the end
+
+        console.log(favouriteCookies);
+        console.log("I am eating a " + cookie + " cookie.");
+        let fav = 2; // index
+        console.log(favouriteCookies[fav]); // access the element at index 2
+        console.log(favouriteCookies.length); // count the number of elements
+        console.log(favouriteCookies[favouriteCookies.length - 1]); // access the last element
+    </script>
+</body>
+</html>
